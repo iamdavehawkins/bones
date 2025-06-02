@@ -221,10 +221,10 @@
         document.getElementById('randomSongLink').addEventListener('click', function(e) {
             e.preventDefault();
             const songPages = [
-                'https://bones.iamdavehawkins.com/',
                 'https://strawberrysummer.iamdavehawkins.com/',
                 'https://woolandfur.iamdavehawkins.com/',
-                'https://santafe.iamdavehawkins.com/'
+                'https://santafe.iamdavehawkins.com/',
+                'https://colorsoftheleaves.iamdavehawkins.com/'
             ];
             const randomPage = songPages[Math.floor(Math.random() * songPages.length)];
             window.location.href = randomPage;
